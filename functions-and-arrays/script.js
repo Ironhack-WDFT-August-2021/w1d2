@@ -86,7 +86,7 @@ function filterCountries(arr) {
 	const filtered = []
 	// iterate over countries
 	for (let i = 0; i < arr.length; i++) {
-		console.log(arr[i][0])
+		// console.log(arr[i][0])
 		// check if the country we are at starts with a 'u'
 		if (arr[i][0] === 'u') {
 			// if yes add this country to the result array
@@ -99,3 +99,34 @@ function filterCountries(arr) {
 }
 const filteredArray = filterCountries(countries)
 console.log(filteredArray)
+
+// iterating over an array
+// for of loop ->  for (let <oneOfTheElements> of <nameOfTheArray>) 
+for (let country of countries) {
+	console.log(country)
+}
+
+// forEach()
+countries.forEach(function (country) {
+	console.log(country)
+})
+console.clear()
+// multidimensional arrays
+const multi = [['a', 'b'], ['c', 'd'], ['e', 'f']];
+console.log(multi[2][0])
+
+
+console.clear()
+const countries2 = ['usa', 'france', 'uruguay', 'england', 'poland'];
+
+// write a function that returns the index of france
+function findFrance(countries) {
+	for (let i = 0; i < countries.length; i++) {
+		// console.log(countries[i])
+		if (countries[i] === 'france') {
+			return i
+		}
+	}
+}
+
+console.log(findFrance(countries2));
