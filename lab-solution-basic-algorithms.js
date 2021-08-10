@@ -12,7 +12,7 @@ console.log('The drivers name is' + hacker1 + '.');
 const hacker2 = 'Bob';
 
 //   1.4 Print `"The navigator's name is YYYY"`.
-console.log('The navigators name is' + hacker2);
+console.log('The navigators name is' + hacker2 + '.');
 
 // ### Iteration 2: Conditionals
 
@@ -101,10 +101,11 @@ console.log(foundEt);
 // "put it up"
 // "Was it a car or a cat I saw" and "No x in Nixon".
 
-let palindrome = 'stack cats';
+let palindrome = 'stackcats';
 
 function isPalindrome(str) {
     // remove whitespace
+    // this is a regular expression
     // const re = /[^A-Za-z0-9]/g;
     // str = str.toLowerCase().replace(re, '');
 
