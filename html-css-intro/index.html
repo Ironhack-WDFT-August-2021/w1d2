@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+          background-color: turquoise;
+          border: 2px solid salmon;
+        }
+      </style>
+      <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav id="top">
+       This is where the nav links are 
+    </nav>
+    <!-- The HTML <section> element represents a standalone section — which doesn't have a more 
+    specific semantic element to represent it — contained within an HTML document. Typically, 
+    but not always, sections have a heading.
+    As an example, a navigation menu should be wrapped in a <nav> element, but a list of 
+    search results and a map display and its controls don't have specific elements, and 
+    could be put inside a <section>. -->
+    
+    <!-- This falls all in the category of semantic HTML, 
+    other examples for elements are aside, footer, form, figcaption -->
+
+    <section>
+        <h1 style="color:tomato">This is the main heading</h1>
+        <p>Bunch of awesome content</p>
+    </section>
+    <h2>This is a secondary heading</h2>
+    <h6>This is a very small heading</h6>
+    <div>
+      Divs are unstyled elements. They are usually used as containers for other
+      elements. Div is a block element. It uses the whole width of the browser.
+      <span class="text-container"
+        >A span is an unstyled element. They are used as container for
+        text. Span is an inline element. It uses only as much space as needed</span
+      >
+      <span>This is another span.</span>
+      <p class="text-container another-class">
+        This is a paragraph. It is a block element. Block level elements start a new line and take up the whole width.
+        Inline elements flow like text.
+      </p>
+    </div>
+    <ul>
+      Lists are also block elements. In an unordered list, the order of the
+      elements is not relevant. Ex: shopping list
+      <li>
+        Pasta
+      </li>
+      <li id="mate-item">
+        Mate
+      </li>
+      <li>
+        Detergent
+      </li>
+    </ul>
+    <ol>
+      This is an ordered list, where the order of the elements matter.
+      <li>Load the washing machine</li>
+      <li>Add detergent</li>
+      <li>Start the washer</li>
+    </ol>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jeff</td>
+          <td>🇧🇷</td>
+        </tr>
+        <tr>
+          <td>Alfonso</td>
+          <td>🇪🇸</td>
+        </tr>
+        <tr>
+          <td>Tim</td>
+          <td>🇬🇧</td>
+        </tr>
+        <tr>
+          <td>Jan</td>
+          <td>🇩🇪</td>
+        </tr>
+      </tbody>
+    </table>
+    <form>
+      Forms are also block elements but its children are inline elements.
+      <label for="message">Leave a message</label>
+      <input id="message" type="text" />
+      <button>Send</button>
+    </form>
+    <br />
+    <hr />
+    <p>
+      This paragraph will contain inline elements. This is <em>emphasized</em>,
+      this is <strong>of strong importance</strong>. Images are also inline
+      elements:
+      <img src="https://picsum.photos/200" alt="this is a random image" /> and a
+      broken image <img src="foo" alt="broken" />.
+      <a href="http://google.com">This is a link to google</a>
+    </p>
+    <a href="#top">Go to the top of the page</a>
+</body>
+</html>

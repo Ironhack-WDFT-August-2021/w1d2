@@ -1,0 +1,40 @@
+/* CSS is structured as a Selector and, in curly braces, a declaration block */
+
+/* Selector {
+  property: value
+}
+/* type selector */
+/* selects by html tag */
+div {
+    background-color: aqua;
+}
+  
+.another-class {
+    /* border: 1px solid white;
+    color:red; */
+    color: white;
+}
+/* class selector */
+/* can select multiple elements */
+.text-container {
+    color: white;
+    color:red;
+}
+
+
+/* id selector */
+/* will select only one element */
+#mate-item {
+    text-decoration: line-through greenyellow;
+}
+
+
+/* also practical for the colors https://color.adobe.com/ and the color picker in chrome */
+
+table {
+    /* background-color: rgb(170, 100, 15); */
+    /* background-color: rgba(170, 100, 15, 0.2); */
+    /* background-color: rgb(76, 187, 23); */
+    /* background-color: #fff; */
+    background-color: #35d11a;
+}
